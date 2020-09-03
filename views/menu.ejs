@@ -1,0 +1,35 @@
+<%-include('./partials/header')%>
+
+<section id="menu">
+    <article>
+        <h3>DELICIOUS MENU</h3>
+        <div class="line"></div>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum odit reiciendis consectetur earum,
+            sapiente impedit.</h4>
+    </article>
+
+    <article class="menu-flex">
+        <h5>SOUP</h5>
+        <h5>PIZZA</h5>
+        <h5>PASTA</h5>
+        <h5>DESSERT</h5>
+        <h5>WINE</h5>
+        <h5>BEER</h5>
+        <h5>DRINKS</h5>
+    </article>
+
+    <article class="pizza-menu">
+        <ul>
+            <% for(i=0; i<21; i++){ %>
+            <li>
+                <h5>Pizza Quatro Stagioni . . . . <span>30,50 USD</span></h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </li>
+            <% } %>
+        </ul>
+    </article>
+</section>
+<%-include('./partials/footer')%>
+</body>
+
+</html>

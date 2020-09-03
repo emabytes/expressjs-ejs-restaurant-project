@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/3b1c75d67e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <%nav.forEach(elem =>{%>
+                <li>
+                    <a href="<%=elem.url%>">
+                        <%=elem.name%>
+                    </a>
+                </li>
+                <%})%>
+            </ul>
+        </nav>
+
+        <article>
+            <div class="logo-wrap">
+                <img class="logo" src="Vector.png" alt="">
+            </div>
+
+            <div class="vertical-text-wrap">
+                <h6>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</h6>
+            </div>
+
+            <div class="social-wrap">
+                <a href=""><img src="facebook.png" alt=""></a>
+                <a href=""><img src="twitter.png" alt=""></a>
+                <a href=""><img src="instagram.png" alt=""></a>
+            </div>
+
+            <div class="title-wrap">
+                <h3>RESTAURANT</h3>
+                <h1>HUNGRY PEOPLE</h1>
+                <div class="line"></div>
+                <div class="btn-wrap">
+                    <a class="btn yellow" href="">BOOK TABLE</a>
+                    <a class="btn trans" href="">EXPLORE</a>
+                </div>
+                <a class="down-btn" href=""><img src="down-btn.png" alt=""></a>
+            </div>
+        </article>
+    </header>
