@@ -88,7 +88,7 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10vh;
+  padding-top: 15vh;
 }
 .title-wrap h3 {
   letter-spacing: 5px;
