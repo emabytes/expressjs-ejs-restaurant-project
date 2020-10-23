@@ -1,11 +1,12 @@
 const express = require("express")
 const app = express()
 const nav = require("./menu.json")
+const PORT = process.env.PORT || 5000;
 
 const bodyParser = require('body-parser')
 
-app.listen(5003, () => {
-    console.log("server started at http://localhost:5003")
+app.listen(PORT, () => {
+    console.log("server started at http://localhost:5000")
 })
 
 var jsonParser = bodyParser.json()
