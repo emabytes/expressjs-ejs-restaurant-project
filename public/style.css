@@ -153,6 +153,7 @@ nav ul li a:hover {
 }
 #about article:nth-of-type(2) {
   position: relative;
+  padding-left: 5em;
 }
 #about article h3 {
   font-family: Banny-Regular;
@@ -181,6 +182,10 @@ nav ul li a:hover {
   position: absolute;
   bottom: 7em;
   right: 7em;
+}
+#about .yellow-box-right {
+  right: 15em;
+  bottom: 5em;
 }
 
 footer {
@@ -256,6 +261,9 @@ footer p span {
   bottom: 10em;
   left: -5em;
 }
+#team .yellow-box-left {
+  left: -7em;
+}
 
 #booking {
   padding: 5vh 8%;
@@ -303,6 +311,9 @@ footer p span {
   position: absolute;
   bottom: 10em;
   right: -5em;
+}
+#booking .yellow-box-right {
+  right: -1em;
 }
 .grid-table {
   display: grid;
@@ -481,6 +492,11 @@ footer p span {
   color: grey;
   font-family: "Open Sans", sans-serif;
 }
+#events .yellow-box-left {
+  left: -3em;
+}
+
+
 #error {
   margin: 5vh 0;
   height: 90vh;
